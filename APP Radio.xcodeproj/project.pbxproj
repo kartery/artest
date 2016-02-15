@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		788D0D4D1C71BFB4005FEA07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788D0D4C1C71BFB4005FEA07 /* Foundation.framework */; };
+		788D0D4F1C71BFB4005FEA07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788D0D4E1C71BFB4005FEA07 /* CoreGraphics.framework */; };
+		788D0D511C71BFB4005FEA07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788D0D501C71BFB4005FEA07 /* UIKit.framework */; };
+		788D0D571C71BFB4005FEA07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 788D0D551C71BFB4005FEA07 /* InfoPlist.strings */; };
+		788D0D591C71BFB4005FEA07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 788D0D581C71BFB4005FEA07 /* main.m */; };
+		788D0D5D1C71BFB4005FEA07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 788D0D5C1C71BFB4005FEA07 /* AppDelegate.m */; };
+		788D0D601C71BFB4005FEA07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788D0D5E1C71BFB4005FEA07 /* Main.storyboard */; };
+		788D0D631C71BFB4005FEA07 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788D0D621C71BFB4005FEA07 /* FirstViewController.m */; };
+		788D0D661C71BFB4005FEA07 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788D0D651C71BFB4005FEA07 /* SecondViewController.m */; };
+		788D0D681C71BFB4005FEA07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788D0D671C71BFB4005FEA07 /* Images.xcassets */; };
+		788D0D6F1C71BFB4005FEA07 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788D0D6E1C71BFB4005FEA07 /* XCTest.framework */; };
+		788D0D701C71BFB4005FEA07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788D0D4C1C71BFB4005FEA07 /* Foundation.framework */; };
+		788D0D711C71BFB4005FEA07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788D0D501C71BFB4005FEA07 /* UIKit.framework */; };
+		788D0D791C71BFB4005FEA07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 788D0D771C71BFB4005FEA07 /* InfoPlist.strings */; };
+		788D0D7B1C71BFB4005FEA07 /* APP_RadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788D0D7A1C71BFB4005FEA07 /* APP_RadioTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		788D0D721C71BFB4005FEA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 788D0D411C71BFB4005FEA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788D0D481C71BFB4005FEA07;
+			remoteInfo = "APP Radio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		788D0D491C71BFB4005FEA07 /* APP Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APP Radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		788D0D4C1C71BFB4005FEA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		788D0D4E1C71BFB4005FEA07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		788D0D501C71BFB4005FEA07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		788D0D541C71BFB4005FEA07 /* APP Radio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APP Radio-Info.plist"; sourceTree = "<group>"; };
+		788D0D561C71BFB4005FEA07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		788D0D581C71BFB4005FEA07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		788D0D5A1C71BFB4005FEA07 /* APP Radio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APP Radio-Prefix.pch"; sourceTree = "<group>"; };
+		788D0D5B1C71BFB4005FEA07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		788D0D5C1C71BFB4005FEA07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		788D0D5F1C71BFB4005FEA07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		788D0D611C71BFB4005FEA07 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		788D0D621C71BFB4005FEA07 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		788D0D641C71BFB4005FEA07 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		788D0D651C71BFB4005FEA07 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		788D0D671C71BFB4005FEA07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		788D0D6D1C71BFB4005FEA07 /* APP RadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APP RadioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		788D0D6E1C71BFB4005FEA07 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		788D0D761C71BFB4005FEA07 /* APP RadioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APP RadioTests-Info.plist"; sourceTree = "<group>"; };
+		788D0D781C71BFB4005FEA07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		788D0D7A1C71BFB4005FEA07 /* APP_RadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APP_RadioTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		788D0D461C71BFB4005FEA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788D0D4F1C71BFB4005FEA07 /* CoreGraphics.framework in Frameworks */,
+				788D0D511C71BFB4005FEA07 /* UIKit.framework in Frameworks */,
+				788D0D4D1C71BFB4005FEA07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788D0D6A1C71BFB4005FEA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788D0D6F1C71BFB4005FEA07 /* XCTest.framework in Frameworks */,
+				788D0D711C71BFB4005FEA07 /* UIKit.framework in Frameworks */,
+				788D0D701C71BFB4005FEA07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		788D0D401C71BFB4005FEA07 = {
+			isa = PBXGroup;
+			children = (
+				788D0D521C71BFB4005FEA07 /* APP Radio */,
+				788D0D741C71BFB4005FEA07 /* APP RadioTests */,
+				788D0D4B1C71BFB4005FEA07 /* Frameworks */,
+				788D0D4A1C71BFB4005FEA07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		788D0D4A1C71BFB4005FEA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				788D0D491C71BFB4005FEA07 /* APP Radio.app */,
+				788D0D6D1C71BFB4005FEA07 /* APP RadioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		788D0D4B1C71BFB4005FEA07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				788D0D4C1C71BFB4005FEA07 /* Foundation.framework */,
+				788D0D4E1C71BFB4005FEA07 /* CoreGraphics.framework */,
+				788D0D501C71BFB4005FEA07 /* UIKit.framework */,
+				788D0D6E1C71BFB4005FEA07 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		788D0D521C71BFB4005FEA07 /* APP Radio */ = {
+			isa = PBXGroup;
+			children = (
+				788D0D5B1C71BFB4005FEA07 /* AppDelegate.h */,
+				788D0D5C1C71BFB4005FEA07 /* AppDelegate.m */,
+				788D0D5E1C71BFB4005FEA07 /* Main.storyboard */,
+				788D0D611C71BFB4005FEA07 /* FirstViewController.h */,
+				788D0D621C71BFB4005FEA07 /* FirstViewController.m */,
+				788D0D641C71BFB4005FEA07 /* SecondViewController.h */,
+				788D0D651C71BFB4005FEA07 /* SecondViewController.m */,
+				788D0D671C71BFB4005FEA07 /* Images.xcassets */,
+				788D0D531C71BFB4005FEA07 /* Supporting Files */,
+			);
+			path = "APP Radio";
+			sourceTree = "<group>";
+		};
+		788D0D531C71BFB4005FEA07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788D0D541C71BFB4005FEA07 /* APP Radio-Info.plist */,
+				788D0D551C71BFB4005FEA07 /* InfoPlist.strings */,
+				788D0D581C71BFB4005FEA07 /* main.m */,
+				788D0D5A1C71BFB4005FEA07 /* APP Radio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		788D0D741C71BFB4005FEA07 /* APP RadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				788D0D7A1C71BFB4005FEA07 /* APP_RadioTests.m */,
+				788D0D751C71BFB4005FEA07 /* Supporting Files */,
+			);
+			path = "APP RadioTests";
+			sourceTree = "<group>";
+		};
+		788D0D751C71BFB4005FEA07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				788D0D761C71BFB4005FEA07 /* APP RadioTests-Info.plist */,
+				788D0D771C71BFB4005FEA07 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		788D0D481C71BFB4005FEA07 /* APP Radio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788D0D7E1C71BFB4005FEA07 /* Build configuration list for PBXNativeTarget "APP Radio" */;
+			buildPhases = (
+				788D0D451C71BFB4005FEA07 /* Sources */,
+				788D0D461C71BFB4005FEA07 /* Frameworks */,
+				788D0D471C71BFB4005FEA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APP Radio";
+			productName = "APP Radio";
+			productReference = 788D0D491C71BFB4005FEA07 /* APP Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		788D0D6C1C71BFB4005FEA07 /* APP RadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788D0D811C71BFB4005FEA07 /* Build configuration list for PBXNativeTarget "APP RadioTests" */;
+			buildPhases = (
+				788D0D691C71BFB4005FEA07 /* Sources */,
+				788D0D6A1C71BFB4005FEA07 /* Frameworks */,
+				788D0D6B1C71BFB4005FEA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				788D0D731C71BFB4005FEA07 /* PBXTargetDependency */,
+			);
+			name = "APP RadioTests";
+			productName = "APP RadioTests";
+			productReference = 788D0D6D1C71BFB4005FEA07 /* APP RadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		788D0D411C71BFB4005FEA07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Kojak;
+				TargetAttributes = {
+					788D0D6C1C71BFB4005FEA07 = {
+						TestTargetID = 788D0D481C71BFB4005FEA07;
+					};
+				};
+			};
+			buildConfigurationList = 788D0D441C71BFB4005FEA07 /* Build configuration list for PBXProject "APP Radio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 788D0D401C71BFB4005FEA07;
+			productRefGroup = 788D0D4A1C71BFB4005FEA07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				788D0D481C71BFB4005FEA07 /* APP Radio */,
+				788D0D6C1C71BFB4005FEA07 /* APP RadioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		788D0D471C71BFB4005FEA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788D0D681C71BFB4005FEA07 /* Images.xcassets in Resources */,
+				788D0D571C71BFB4005FEA07 /* InfoPlist.strings in Resources */,
+				788D0D601C71BFB4005FEA07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788D0D6B1C71BFB4005FEA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788D0D791C71BFB4005FEA07 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788D0D451C71BFB4005FEA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788D0D661C71BFB4005FEA07 /* SecondViewController.m in Sources */,
+				788D0D5D1C71BFB4005FEA07 /* AppDelegate.m in Sources */,
+				788D0D631C71BFB4005FEA07 /* FirstViewController.m in Sources */,
+				788D0D591C71BFB4005FEA07 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788D0D691C71BFB4005FEA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788D0D7B1C71BFB4005FEA07 /* APP_RadioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		788D0D731C71BFB4005FEA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788D0D481C71BFB4005FEA07 /* APP Radio */;
+			targetProxy = 788D0D721C71BFB4005FEA07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		788D0D551C71BFB4005FEA07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788D0D561C71BFB4005FEA07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		788D0D5E1C71BFB4005FEA07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788D0D5F1C71BFB4005FEA07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		788D0D771C71BFB4005FEA07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				788D0D781C71BFB4005FEA07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		788D0D7C1C71BFB4005FEA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		788D0D7D1C71BFB4005FEA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		788D0D7F1C71BFB4005FEA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APP Radio/APP Radio-Prefix.pch";
+				INFOPLIST_FILE = "APP Radio/APP Radio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		788D0D801C71BFB4005FEA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APP Radio/APP Radio-Prefix.pch";
+				INFOPLIST_FILE = "APP Radio/APP Radio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		788D0D821C71BFB4005FEA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APP Radio.app/APP Radio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APP Radio/APP Radio-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "APP RadioTests/APP RadioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		788D0D831C71BFB4005FEA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/APP Radio.app/APP Radio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APP Radio/APP Radio-Prefix.pch";
+				INFOPLIST_FILE = "APP RadioTests/APP RadioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		788D0D441C71BFB4005FEA07 /* Build configuration list for PBXProject "APP Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788D0D7C1C71BFB4005FEA07 /* Debug */,
+				788D0D7D1C71BFB4005FEA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788D0D7E1C71BFB4005FEA07 /* Build configuration list for PBXNativeTarget "APP Radio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788D0D7F1C71BFB4005FEA07 /* Debug */,
+				788D0D801C71BFB4005FEA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		788D0D811C71BFB4005FEA07 /* Build configuration list for PBXNativeTarget "APP RadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788D0D821C71BFB4005FEA07 /* Debug */,
+				788D0D831C71BFB4005FEA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 788D0D411C71BFB4005FEA07 /* Project object */;
+}
